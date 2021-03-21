@@ -1,0 +1,13 @@
+create table TRIP
+(
+	TRIP_ID NUMBER generated as identity,
+	NAME VARCHAR2(100),
+	COUNTRY VARCHAR2(50),
+	TRIP_DATE DATE,
+	NO_PLACES NUMBER,
+	NO_AVAILABLE_PLACES NUMBER,
+	constraint TRIP_PK
+		primary key (TRIP_ID)
+)
+/
+

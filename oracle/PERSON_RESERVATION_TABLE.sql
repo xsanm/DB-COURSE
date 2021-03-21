@@ -1,0 +1,3 @@
+create type PERSON_RESERVATION_TABLE as table of PERSON_RESERVATION
+/
+
